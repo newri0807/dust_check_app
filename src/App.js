@@ -83,7 +83,7 @@ class App extends Component {
       //console.log(filterdData);
 
 
-    } else if (filterdData == undefined) {
+    } else if (filterdData == undefined && districtName != "") {
 
       result = <NoDataHere />
 
